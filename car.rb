@@ -1,14 +1,14 @@
 class Car
-  def set_brand(brand)  #Setter method
+  def brand=(brand)  #Setter method. Shorthand way
     @brand=brand
   end
-  def get_brand  #getter method
+  def brand  #getter method Shorthand way
     @brand
   end
 end
 
  
 c1=Car.new
-c1.set_brand("audi") # use the setter method
-puts c1.get_brand  #use the getter method
+c1.brand="audi" # use the setter method
+puts c1.brand  #use the getter method
 puts c1.inspect
