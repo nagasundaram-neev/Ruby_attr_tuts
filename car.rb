@@ -1,8 +1,6 @@
 class Car
-  #Setter method. using attr_writer
-  attr_writer :brand 
-  #getter method using attr_reader
-  attr_reader :brand
+  #Setter & getter. using attr_accessor
+  attr_accessor :brand 
 end
 
  
